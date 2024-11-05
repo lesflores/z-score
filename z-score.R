@@ -11,7 +11,7 @@ datos$variable_estandarizada2 <- scale(datos$variable2)
 
 # Ejemplo:
 
-# llamamos base de datos de prueba que puedes descargar aquí __
+# llamamos base de datos de prueba que puedes descargar aquí https://github.com/lesflores/z-score/blob/main/datos.xlsx
 
 library(readxl)
 datos <- read_excel("datos.xlsx") 
